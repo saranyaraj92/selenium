@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="none" thread-count="1">
+<test thread-count="5" name="Test" preserve-order="true">
+<!-- <test name="regression">-->
+<classes>
+<class name="packageone.Main_Class"/>
+<!-- <class name="packageone.Selenium_Class"/>-->
+<class name="packageone.SeleniumEasy"/>
+</classes>
+</test>
+<!-- <test name="Sanity Check">
+<classes>
+<class name="sanitycheck.NareshIt"></class>
+</classes>
+</test>-->
+</suite> <!-- Suite -->
